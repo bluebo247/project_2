@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Login Page</title>
+
+</head>
+<body>
+<div class="login-container">
+    <h2>Login</h2>
+    <form id="login
+    Form" action="http://localhost:3000/register" method="POST">
+        <label for="userid"></label>
+        <input type="text" id="userid" name="userid" placeholder="아이디를 입력하세요." required>
+        <label for="password"></label>
+        <input type="password" id="password" name="password" placeholder="비밀번호를 입력하세요." required>
+        <label for="username"></label>
+        <input type="text" id="username" name="userid" placeholder="이름을 입력하세요. ex)홍길동" required>
+        <label for="useremail"></label>
+        <input type="email" id="useremail" name="userid" placeholder="이메일을 입력하세요." required>
+        <hr>
+        <div id="button-container">
+            <input type="submit" value="회원가입">
+        </div>
+    </form>
+</div>
+<script src="js/validation.js"></script>
+</body>
+</html>
